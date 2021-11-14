@@ -9,7 +9,7 @@ mod config_parser;
 #[tokio::main]
 async fn main() {
 
-    let config = read_config(String::from("config.toml"))
+    let config = read_config(String::from("config.toml"));
 
 }
 
